@@ -30,6 +30,18 @@ gem 'foreman', '~> 0.78.0'
 # Heroku
 gem 'rails_12factor', '~> 0.0.3'
 
+# Static Page
+gem 'high_voltage', '~> 2.2.1'
+
+# View
+gem 'bootstrap-sass', '~> 3.3.4.1'
+gem 'autoprefixer-rails', '~> 5.1.7.1'
+gem 'rails_layout', '~> 1.0.25'
+
+# Auth
+gem 'devise', '~> 3.4.1'
+
+gem 'simple_form', '~> 3.1.0'
 
 group :development, :test do
 end
